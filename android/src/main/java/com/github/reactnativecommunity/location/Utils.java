@@ -2,7 +2,10 @@ package com.github.reactnativecommunity.location;
 
 import android.location.Location;
 import android.os.Build;
-import android.support.annotation.Nullable;
+
+// fixes the AndroidX bug in RN
+import androidx.annotation.Nullable;
+// fixes the AndroidX bug in RN
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.ReactApplicationContext;

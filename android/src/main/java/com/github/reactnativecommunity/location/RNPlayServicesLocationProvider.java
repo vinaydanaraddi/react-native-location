@@ -6,8 +6,11 @@ import android.content.Intent;
 import android.content.IntentSender;
 import android.content.pm.PackageManager;
 import android.location.Location;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
+
+// fixes the AndroidX bug in RN
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+// fixes the AndroidX bug in RN
 
 import com.facebook.react.bridge.Arguments;
 import com.facebook.react.bridge.Promise;
